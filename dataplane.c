@@ -33,8 +33,7 @@ printf("\n%.1f days used, %.1f days remaining\n\n",curr_day,rem_day);
 
 printf("Average daily use: %.2f GB/day\n\n",user_avg);
 
-printf("\n\nYou are EXCEEDING your average daily use ( %.2f GB/day).\n
-Continuing this high usage, you'll exceed your data plan %.2f GB \n\n",average,a);
+printf("\n\nYou are EXCEEDING your average daily use ( %.2f GB/day).\nContinuing this high usage, you'll exceed your data plan %.2f GB \n\n",average,a);
 
 
 }
@@ -49,8 +48,7 @@ printf("\n%.1f days used, %.1f days remaining\n\n",curr_day,rem_day);
 
 printf("Average daily use: %.2f GB/day\n\n",user_avg);
 
-printf("\n\nYou are at or below your average daily use ( %.2f GB/day).\n
-You can use up to %.2f GB/day and stay below your data plan limit" ,user_avg,b);
+printf("\n\nYou are at or below your average daily use ( %.2f GB/day).\nYou can use up to %.2f GB/day and stay below your data plan limit" ,user_avg,b);
 
 
 }
@@ -61,7 +59,7 @@ printf("\n%.1f days used, %.1f days remaining\n\n",curr_day,rem_day);
 
 printf("Average daily use: %.2f GB/day\n\n",user_avg);
 
-printf("\n\n You have already met your limit for this month.  Looks like you're getting some overage charges...")
+printf("\n\n You have already met your limit for this month.  Looks like you're getting some overage charges...");
 
 }
 
