@@ -40,7 +40,7 @@ Continuing this high usage, you'll exceed your data plan %.2f GB \n\n",average,a
 }
 
 
-else if(user_avg<average){
+ if(user_avg<average){
 
     
 float b = rem_day / rem_gb;
@@ -53,6 +53,12 @@ printf("You are at or below your average daily use ( %.2f GB/day).\n
 You can use up to %.2f GB/day and stay below your data plan limit" ,user_avg,b);
 
 
+}
+
+if(gb_used>gb_in_plan){
+
+
+    
 }
 
 
