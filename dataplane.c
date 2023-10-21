@@ -42,12 +42,15 @@ Continuing this high usage, you'll exceed your data plan %.2f GB \n\n",average,a
 
 else if(user_avg<average){
 
+    
+float b = rem_day / rem_gb;
+
 printf("\n%.1f days used, %.1f days remaining\n\n",curr_day,rem_day);
 
 printf("Average daily use: %.2f GB/day\n\n",user_avg);
 
-printf("You are at or below your average daily use (33.333 GB/day).\n
-You can use up to 34.482 GB/day and stay below your data plan limit")
+printf("You are at or below your average daily use ( %.2f GB/day).\n
+You can use up to %.2f GB/day and stay below your data plan limit")
 
 }
 
