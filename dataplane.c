@@ -50,7 +50,8 @@ printf("\n%.1f days used, %.1f days remaining\n\n",curr_day,rem_day);
 printf("Average daily use: %.2f GB/day\n\n",user_avg);
 
 printf("You are at or below your average daily use ( %.2f GB/day).\n
-You can use up to %.2f GB/day and stay below your data plan limit")
+You can use up to %.2f GB/day and stay below your data plan limit" ,user_avg,b);
+
 
 }
 
